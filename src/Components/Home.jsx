@@ -157,7 +157,7 @@ const yojana = [
           <JobCard
             title="yojana"
             jobs={yojana}
-            bgColor="#d60000"
+            bgColor="#ff00c1"
             buttonColor="#e60000"
           />
         </Grid>
@@ -165,7 +165,7 @@ const yojana = [
           <JobCard
             title="Updates"
             jobs={updates}
-            bgColor="#c59b05"
+            bgColor="#0255ba"
             buttonColor="#009900"
           />
         </Grid>
