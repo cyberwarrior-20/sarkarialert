@@ -79,9 +79,9 @@ export default function AboutUs() {
       <Paper
         elevation={2}
         sx={{
-          background: "#f9fafc",
+         
           p: { xs: 2, sm: 3 },
-          borderRadius: 3,
+          borderRadius: 1,
           mt: 3,
         }}
       >
@@ -101,27 +101,21 @@ export default function AboutUs() {
         >
           Name :&nbsp;
           <Box component="span" sx={{ fontWeight: 600 }}>
-            Jayant Mandal
+            Raghu Yadav 
+
           </Box>
         </Typography>
         <Typography sx={{ mb: 1 }}>
           <Box component="span" sx={{ fontWeight: 600 }}>
             Email Id&nbsp;:
           </Box>
-          &nbsp;mysarkarialert@gmail.com
+          &nbsp;raghuroy9058@gmail.com
         </Typography>
         <Typography sx={{ mb: 1 }}>
           <Box component="span" sx={{ fontWeight: 600 }}>
             My Address&nbsp;:
           </Box>
-          &nbsp;Betul Madhya Pradesh
-        </Typography>
-        <Typography sx={{ display: "flex", alignItems: "center" }}>
-          <Box component="span" sx={{ fontWeight: 600 }}>
-            My Date Of Birth&nbsp;:
-          </Box>
-          &nbsp;01/05/1997
-          {campusJobChip}
+          &nbsp;Hathras Uttar Pradesh
         </Typography>
       </Paper>
     </Box>

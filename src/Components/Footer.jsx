@@ -15,7 +15,7 @@ const Footer = () => {
             About Me
           </Typography>
           <Typography sx={{ mt: 1, color: '#333' }}>
-            Hy I am Jayant from MP. I created this website only for sarkari alert and education purpose.
+            Hy I am Raghu Yadav. I created this website only for sarkari alert and education purpose.
           </Typography>
         </Grid>
 
