@@ -10,6 +10,7 @@ import LatestPost from './Components/LatestPost';
 import Privatejob from './Components/Privatejob';
 import AboutUs from './Components/AboutUs';
 import FloatingButtons from './Components/FloatingButtons'; // Choose this one
+import PostData from './Components/PostData';
 // import CompactFloatingButtons from './Components/CompactFloatingButtons'; // Or this one
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/latest-post" element={<LatestPost />} />
           <Route path="/private-job" element={<Privatejob />} />
+           <Route path="/post/:id" element={<PostData />} />
           <Route path="/about" element={<AboutUs />} />
         </Routes>
       </main>
